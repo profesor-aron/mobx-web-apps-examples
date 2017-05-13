@@ -10,7 +10,7 @@ import {
  * Import the modules and components
  */
 import Page404 from './common/components/Page404'
-import CounterApp from './com.aehp.mobx.examples/01_A_simple_counter/CounterApp'
+import CounterView from './com.aehp.mobx.examples/01_A_simple_counter'
 
 /**
  * Render the application
@@ -18,7 +18,7 @@ import CounterApp from './com.aehp.mobx.examples/01_A_simple_counter/CounterApp'
 render(
   <HashRouter>
     <Switch>
-      <Route exact path="/" component={CounterApp}/>
+      <Route exact path="/" component={CounterView}/>
       <Route component={Page404}/>
     </Switch>
   </HashRouter>,

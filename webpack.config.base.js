@@ -40,6 +40,10 @@ module.exports = function (env) {
             presets: [
               'es2015',
               'react'
+            ],
+            plugins: [
+              'transform-decorators-legacy',
+              'transform-class-properties'
             ]
           }
         },
