@@ -6,3 +6,8 @@ mobx-react
 babel-eslint
 babel-plugin-transform-class-properties
 babel-plugin-transform-decorators-legacy
+
+References:
+
+PropTypes
+https://facebook.github.io/react/docs/typechecking-with-proptypes.html

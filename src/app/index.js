@@ -11,6 +11,7 @@ import {
  */
 import Page404 from './common/components/Page404'
 import CounterView from './com.aehp.mobx.examples/01_A_simple_counter'
+import ContactListApp from './com.aehp.mobx.examples/02_Contacts_List'
 
 /**
  * Render the application
@@ -19,6 +20,7 @@ render(
   <HashRouter>
     <Switch>
       <Route exact path="/" component={CounterView}/>
+      <Route exact path="/contacts" component={ContactListApp}/>
       <Route component={Page404}/>
     </Switch>
   </HashRouter>,
