@@ -11,3 +11,6 @@ References:
 
 PropTypes
 https://facebook.github.io/react/docs/typechecking-with-proptypes.html
+
+MobX examples
+https://jsfiddle.net/mweststrate/wv3yopo0/
