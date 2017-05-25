@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import DocumentTitle from 'react-document-title'
 import { observer } from 'mobx-react'
 
-import counterStore from './Counter'
+import Counter from './Counter'
+
+const counterStore = new Counter()
 
 /**
  * Counter App component

@@ -14,6 +14,4 @@ class Counter {
 
 }
 
-const counterStore = new Counter()
-
-export default counterStore
+export default Counter
