@@ -10,8 +10,8 @@ import {
  * Import the modules and components
  */
 import Page404 from './common/components/Page404'
-import CounterView from './com.aehp.mobx.examples/01_A_simple_counter'
-import ContactListApp from './com.aehp.mobx.examples/02_Contacts_List'
+import CounterView from './examples/01_A_simple_counter'
+import ContactListApp from './examples/02_Contacts_List'
 
 /**
  * Render the application
