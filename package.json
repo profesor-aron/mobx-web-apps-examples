@@ -9,7 +9,8 @@
     "build:prod": "webpack --env=prod --progress --profile --colors",
     "doc": "esdoc -c esdoc.json",
     "test": "mocha --opts mocha.opts",
-    "tdd": "npm test -- --watch"
+    "tdd": "npm test -- --watch",
+    "validate": "npm ls"
   },
   "repository": "npm/npm",
   "license": "ISC",
